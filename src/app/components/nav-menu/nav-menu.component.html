@@ -1,0 +1,23 @@
+<div class="
+  grid
+  grid-cols-2
+  items-center
+  w-full
+  h-20
+  bg-slate-100
+  px-7
+  ">
+  <div class="flex items-center gap-4">
+    <img
+      src="assets/bloggler.png"
+      alt="Blogger Icon"
+      class="w-10 h-10"
+    >
+    <h1 class="font-mono font-extrabold text-5xl">BLOG</h1>
+  </div>
+  <ul class="flex justify-around font-mono">
+    <li *ngFor="let item of links">
+      <a [routerLink]="item.link">{{item.label}}</a>
+    </li>
+  </ul>
+</div>

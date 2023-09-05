@@ -1,3 +1,7 @@
+# Idea
+
+https://dribbble.com/shots/18645296-Blog-Layout-Page
+
 # Blog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
